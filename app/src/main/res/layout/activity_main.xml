@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffbf00"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="FOOD ORDER APP"
+        android:textColor="#9C27B0"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TvKelompok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0080ff"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="25dp"
+        android:text="NAMA KELOMPOK \n\n\n AHMAD MUHYIDDIN (201853004) \n FACHARIZAL ARIEY PUTRA (201853014) \n NICO ARDIANSYAH (201853036)"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnCek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="MULAI"
+        android:backgroundTint="#00a3cc"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

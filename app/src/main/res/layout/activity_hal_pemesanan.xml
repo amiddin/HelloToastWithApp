@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalPemesanan">
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffbf00"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="FOOD ORDER APP"
+        android:textColor="#9C27B0"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNomorPemesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="62dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Nomor pesanan"/>
+
+    <EditText
+        android:id="@+id/etNomorPemesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="64dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tvNamaPemesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Nama pemesanan"/>
+
+    <EditText
+        android:id="@+id/etNamaPemesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="64dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="122dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Alamat pemesanan"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="64dp"
+        android:ems="8"
+        android:inputType="textPostalAddress"/>
+
+    <TextView
+        android:id="@+id/tvJenisPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="152dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Jenis pesanan"/>
+
+    <RadioGroup
+        android:id="@+id/rdJenisPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbMakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="141dp"
+            android:text="Di makan langsung"/>
+
+    <RadioButton
+        android:id="@+id/rbBungkus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:text="Di bungkus"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvMakananMinuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Makanan / Minuman"/>
+
+    <CheckBox
+        android:id="@+id/cbMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="241dp"
+        android:text="Makanan"/>
+
+    <CheckBox
+        android:id="@+id/cbMinuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="271dp"
+        android:text="Mimuman" />
+
+
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="321dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Harga Makanan / Minuman"/>
+
+    <EditText
+        android:id="@+id/etHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="64dp"
+        android:ems="6"
+        android:inputType="number"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tvJumlahTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="372dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Jumlah total"/>
+
+    <EditText
+        android:id="@+id/etJumlahTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="64dp"
+        android:ems="6"
+        android:inputType="number"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tvJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Jumlah Makan / Minuman"/>
+
+    <EditText
+        android:id="@+id/etJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="64dp"
+        android:ems="6"
+        android:inputType="number"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnCek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="500dp"
+        android:text="PESAN"/>
+</RelativeLayout>
